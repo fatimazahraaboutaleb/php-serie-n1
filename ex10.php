@@ -1,7 +1,6 @@
 <?php
- function surface($b,$h){
-    $s=($b*$h)/2;
-    echo "$s";
- }
+function surface($b,$h){
+   return ($b*$h)/2;
+}
 
- surface(6,4);
+echo surface(6,4);
